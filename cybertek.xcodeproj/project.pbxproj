@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A77A1A1CB86D5CD55A06BE7D /* Pods_cybertek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10EBD9854BF558CE521B21F3 /* Pods_cybertek.framework */; };
+		E12088CA2818331F003BE06A /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12088C92818331F003BE06A /* ProductDetail.swift */; };
+		E13CD4A8281EB12700C9C1B5 /* ImageCaro.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13CD4A7281EB12700C9C1B5 /* ImageCaro.swift */; };
+		E13CD4AA281EC0F600C9C1B5 /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13CD4A9281EC0F500C9C1B5 /* StartingView.swift */; };
+		E152A1D72816D7AB00E85F22 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = E152A1D62816D7AB00E85F22 /* Products.swift */; };
+		E152A1D92816DC4200E85F22 /* FirebaseReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E152A1D82816DC4200E85F22 /* FirebaseReference.swift */; };
+		E152A1DB2816DE1200E85F22 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E152A1DA2816DE1200E85F22 /* Constants.swift */; };
+		E153CD292819E03500D04313 /* OrderCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153CD282819E02300D04313 /* OrderCart.swift */; };
+		E153CD2B2819F28600D04313 /* OrderListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E153CD2A2819F28600D04313 /* OrderListener.swift */; };
+		E1AB0ED72817E9A1005EA0C6 /* ProductListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AB0ED62817E9A1005EA0C6 /* ProductListener.swift */; };
+		E1B47F71281AE873004E258A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B47F70281AE873004E258A /* Order.swift */; };
+		E1B47F73281AEFDC004E258A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B47F72281AEFDC004E258A /* LoginView.swift */; };
+		E1B47F75281AFCC8004E258A /* FinishRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B47F74281AFCC8004E258A /* FinishRegistrationView.swift */; };
+		E1B47F77281B1088004E258A /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B47F76281B1088004E258A /* FUser.swift */; };
+		E1B85A6E281AA0F4000DCAF3 /* OrderCartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B85A6D281AA0F4000DCAF3 /* OrderCartView.swift */; };
+		E1B85A70281AA887000DCAF3 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B85A6F281AA887000DCAF3 /* Extentions.swift */; };
+		E1B85A72281AAD57000DCAF3 /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B85A71281AAD57000DCAF3 /* CheckOutView.swift */; };
+		E1BA33DD28171904003CCA63 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA33DC28171904003CCA63 /* TitleView.swift */; };
+		E1BA33E128172349003CCA63 /* ProductItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA33E028172349003CCA63 /* ProductItem.swift */; };
+		E1DA9C92281680280070A23A /* cybertekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA9C91281680280070A23A /* cybertekApp.swift */; };
+		E1DA9C94281680280070A23A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA9C93281680280070A23A /* HomeView.swift */; };
+		E1DA9C962816802B0070A23A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DA9C952816802B0070A23A /* Assets.xcassets */; };
+		E1DA9C992816802B0070A23A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DA9C982816802B0070A23A /* Preview Assets.xcassets */; };
+		E1DA9C9B2816802B0070A23A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DA9C9A2816802B0070A23A /* Persistence.swift */; };
+		E1DA9C9E2816802B0070A23A /* cybertek.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1DA9C9C2816802B0070A23A /* cybertek.xcdatamodeld */; };
+		E1DA9CA5281685C20070A23A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1DA9CA4281685C20070A23A /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10EBD9854BF558CE521B21F3 /* Pods_cybertek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cybertek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E030071B1DD331999D7F1C /* Pods-cybertek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cybertek.debug.xcconfig"; path = "Target Support Files/Pods-cybertek/Pods-cybertek.debug.xcconfig"; sourceTree = "<group>"; };
+		D157AEE6A35919A06389DE71 /* Pods-cybertek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cybertek.release.xcconfig"; path = "Target Support Files/Pods-cybertek/Pods-cybertek.release.xcconfig"; sourceTree = "<group>"; };
+		E12088C92818331F003BE06A /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		E13CD4A7281EB12700C9C1B5 /* ImageCaro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCaro.swift; sourceTree = "<group>"; };
+		E13CD4A9281EC0F500C9C1B5 /* StartingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		E152A1D62816D7AB00E85F22 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		E152A1D82816DC4200E85F22 /* FirebaseReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseReference.swift; sourceTree = "<group>"; };
+		E152A1DA2816DE1200E85F22 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E153CD282819E02300D04313 /* OrderCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCart.swift; sourceTree = "<group>"; };
+		E153CD2A2819F28600D04313 /* OrderListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListener.swift; sourceTree = "<group>"; };
+		E1AB0ED62817E9A1005EA0C6 /* ProductListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListener.swift; sourceTree = "<group>"; };
+		E1B47F70281AE873004E258A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		E1B47F72281AEFDC004E258A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E1B47F74281AFCC8004E258A /* FinishRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishRegistrationView.swift; sourceTree = "<group>"; };
+		E1B47F76281B1088004E258A /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		E1B85A6D281AA0F4000DCAF3 /* OrderCartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCartView.swift; sourceTree = "<group>"; };
+		E1B85A6F281AA887000DCAF3 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		E1B85A71281AAD57000DCAF3 /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
+		E1BA33DC28171904003CCA63 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		E1BA33E028172349003CCA63 /* ProductItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItem.swift; sourceTree = "<group>"; };
+		E1DA9C8E281680280070A23A /* cybertek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cybertek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DA9C91281680280070A23A /* cybertekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cybertekApp.swift; sourceTree = "<group>"; };
+		E1DA9C93281680280070A23A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E1DA9C952816802B0070A23A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1DA9C982816802B0070A23A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1DA9C9A2816802B0070A23A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		E1DA9C9D2816802B0070A23A /* cybertek.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = cybertek.xcdatamodel; sourceTree = "<group>"; };
+		E1DA9CA4281685C20070A23A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1DA9C8B281680280070A23A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77A1A1CB86D5CD55A06BE7D /* Pods_cybertek.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6490B15F5AD11EA9D3A0BE4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10EBD9854BF558CE521B21F3 /* Pods_cybertek.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3825B2E0C36485C15696B60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3E030071B1DD331999D7F1C /* Pods-cybertek.debug.xcconfig */,
+				D157AEE6A35919A06389DE71 /* Pods-cybertek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1AB0ED82817E9B1005EA0C6 /* Firebase Listener */ = {
+			isa = PBXGroup;
+			children = (
+				E1AB0ED62817E9A1005EA0C6 /* ProductListener.swift */,
+				E153CD2A2819F28600D04313 /* OrderListener.swift */,
+			);
+			path = "Firebase Listener";
+			sourceTree = "<group>";
+		};
+		E1BA33DA2816FF85003CCA63 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E152A1D82816DC4200E85F22 /* FirebaseReference.swift */,
+				E152A1DA2816DE1200E85F22 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E1BA33DB2816FFB9003CCA63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E152A1D62816D7AB00E85F22 /* Products.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1DA9C85281680280070A23A = {
+			isa = PBXGroup;
+			children = (
+				E1DA9C90281680280070A23A /* cybertek */,
+				E1DA9C8F281680280070A23A /* Products */,
+				C3825B2E0C36485C15696B60 /* Pods */,
+				6490B15F5AD11EA9D3A0BE4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1DA9C8F281680280070A23A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1DA9C8E281680280070A23A /* cybertek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1DA9C90281680280070A23A /* cybertek */ = {
+			isa = PBXGroup;
+			children = (
+				E1DA9CA4281685C20070A23A /* GoogleService-Info.plist */,
+				E1DA9C91281680280070A23A /* cybertekApp.swift */,
+				E1DA9C93281680280070A23A /* HomeView.swift */,
+				E1B85A6F281AA887000DCAF3 /* Extentions.swift */,
+				E1DA9C952816802B0070A23A /* Assets.xcassets */,
+				E13CD4A7281EB12700C9C1B5 /* ImageCaro.swift */,
+				E1BA33DB2816FFB9003CCA63 /* Model */,
+				E1BA33DA2816FF85003CCA63 /* Helpers */,
+				E1DA9C9A2816802B0070A23A /* Persistence.swift */,
+				E1DA9C9C2816802B0070A23A /* cybertek.xcdatamodeld */,
+				E1DA9C972816802B0070A23A /* Preview Content */,
+				E1BA33DC28171904003CCA63 /* TitleView.swift */,
+				E1BA33E028172349003CCA63 /* ProductItem.swift */,
+				E12088C92818331F003BE06A /* ProductDetail.swift */,
+				E1B85A6D281AA0F4000DCAF3 /* OrderCartView.swift */,
+				E1B85A71281AAD57000DCAF3 /* CheckOutView.swift */,
+				E1B47F72281AEFDC004E258A /* LoginView.swift */,
+				E1B47F74281AFCC8004E258A /* FinishRegistrationView.swift */,
+				E1B47F76281B1088004E258A /* FUser.swift */,
+				E1B47F70281AE873004E258A /* Order.swift */,
+				E153CD282819E02300D04313 /* OrderCart.swift */,
+				E1AB0ED82817E9B1005EA0C6 /* Firebase Listener */,
+				E13CD4A9281EC0F500C9C1B5 /* StartingView.swift */,
+			);
+			path = cybertek;
+			sourceTree = "<group>";
+		};
+		E1DA9C972816802B0070A23A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1DA9C982816802B0070A23A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1DA9C8D281680280070A23A /* cybertek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1DA9CA12816802B0070A23A /* Build configuration list for PBXNativeTarget "cybertek" */;
+			buildPhases = (
+				BAA19F8A0FB27F58E259057C /* [CP] Check Pods Manifest.lock */,
+				E1DA9C8A281680280070A23A /* Sources */,
+				E1DA9C8B281680280070A23A /* Frameworks */,
+				E1DA9C8C281680280070A23A /* Resources */,
+				36A8E3B5602D9629CA69B7B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cybertek;
+			productName = cybertek;
+			productReference = E1DA9C8E281680280070A23A /* cybertek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1DA9C86281680280070A23A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					E1DA9C8D281680280070A23A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = E1DA9C89281680280070A23A /* Build configuration list for PBXProject "cybertek" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1DA9C85281680280070A23A;
+			productRefGroup = E1DA9C8F281680280070A23A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1DA9C8D281680280070A23A /* cybertek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1DA9C8C281680280070A23A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DA9C992816802B0070A23A /* Preview Assets.xcassets in Resources */,
+				E1DA9C962816802B0070A23A /* Assets.xcassets in Resources */,
+				E1DA9CA5281685C20070A23A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36A8E3B5602D9629CA69B7B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cybertek/Pods-cybertek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cybertek/Pods-cybertek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cybertek/Pods-cybertek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAA19F8A0FB27F58E259057C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cybertek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1DA9C8A281680280070A23A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1DA9C9B2816802B0070A23A /* Persistence.swift in Sources */,
+				E1DA9C94281680280070A23A /* HomeView.swift in Sources */,
+				E1B85A70281AA887000DCAF3 /* Extentions.swift in Sources */,
+				E152A1D72816D7AB00E85F22 /* Products.swift in Sources */,
+				E1BA33E128172349003CCA63 /* ProductItem.swift in Sources */,
+				E1B47F75281AFCC8004E258A /* FinishRegistrationView.swift in Sources */,
+				E13CD4AA281EC0F600C9C1B5 /* StartingView.swift in Sources */,
+				E153CD292819E03500D04313 /* OrderCart.swift in Sources */,
+				E1B47F71281AE873004E258A /* Order.swift in Sources */,
+				E1DA9C9E2816802B0070A23A /* cybertek.xcdatamodeld in Sources */,
+				E152A1DB2816DE1200E85F22 /* Constants.swift in Sources */,
+				E153CD2B2819F28600D04313 /* OrderListener.swift in Sources */,
+				E152A1D92816DC4200E85F22 /* FirebaseReference.swift in Sources */,
+				E1DA9C92281680280070A23A /* cybertekApp.swift in Sources */,
+				E1B47F73281AEFDC004E258A /* LoginView.swift in Sources */,
+				E1BA33DD28171904003CCA63 /* TitleView.swift in Sources */,
+				E1B47F77281B1088004E258A /* FUser.swift in Sources */,
+				E13CD4A8281EB12700C9C1B5 /* ImageCaro.swift in Sources */,
+				E1B85A6E281AA0F4000DCAF3 /* OrderCartView.swift in Sources */,
+				E12088CA2818331F003BE06A /* ProductDetail.swift in Sources */,
+				E1B85A72281AAD57000DCAF3 /* CheckOutView.swift in Sources */,
+				E1AB0ED72817E9A1005EA0C6 /* ProductListener.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1DA9C9F2816802B0070A23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1DA9CA02816802B0070A23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1DA9CA22816802B0070A23A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E030071B1DD331999D7F1C /* Pods-cybertek.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cybertek/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cybertek.cybertek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1DA9CA32816802B0070A23A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D157AEE6A35919A06389DE71 /* Pods-cybertek.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"cybertek/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cybertek.cybertek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1DA9C89281680280070A23A /* Build configuration list for PBXProject "cybertek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DA9C9F2816802B0070A23A /* Debug */,
+				E1DA9CA02816802B0070A23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1DA9CA12816802B0070A23A /* Build configuration list for PBXNativeTarget "cybertek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1DA9CA22816802B0070A23A /* Debug */,
+				E1DA9CA32816802B0070A23A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E1DA9C9C2816802B0070A23A /* cybertek.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1DA9C9D2816802B0070A23A /* cybertek.xcdatamodel */,
+			);
+			currentVersion = E1DA9C9D2816802B0070A23A /* cybertek.xcdatamodel */;
+			path = cybertek.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E1DA9C86281680280070A23A /* Project object */;
+}
